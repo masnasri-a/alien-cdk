@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "alien-dev-cdk"
+version = "0.1.0"
+description = ""
+authors = ["nasri adzlani <nasriadzlani@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+
+[tool.poetry.scripts]
+alien-dev-cdk = "alien_dev_cdk:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
